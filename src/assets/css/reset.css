@@ -1,0 +1,229 @@
+body,h1,h2,h3,h4,h5,h6,li {
+  margin: 0;
+  padding: 0;
+}
+html {
+  /* font-size: 100px !important; */
+  width: 100%;
+}
+body {
+  font-size: 12px;
+  width: 100%;
+}
+li {
+  list-style: none;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right; 
+}
+button,input {
+  outline: none;
+}
+button {
+  border: none;
+}
+.container-wrap {
+  margin: 0 auto;
+  width: 10.9rem;
+  margin-bottom: 4.1rem;
+}
+#app {
+  width: 100%;
+}
+.container-wrap .top-title {
+  width: 76%;
+  height: 14%;
+  margin: 0 auto;
+  color: #de2c4b;
+  border-bottom: 0.01rem solid #e4e4e4;
+}
+.container-wrap .top-title h2 {
+  display: block;
+  width: 4.04rem;
+  height: .5rem;
+  font-weight: 400;
+  font-size: 0.28rem;
+  line-height: 0.5rem;
+  padding: 1.02rem 3.43rem 0 2.13rem;
+}
+.container-wrap .top-title span {
+  display: block;
+  font-size: 0.18rem;
+  padding: 0 3.10rem;
+  margin-bottom: .2rem;
+}
+.container-wrap .main-area {
+  overflow: hidden;
+  margin-bottom: 4.1rem;
+  padding: 0.74rem 0.57rem 0 1.54rem;
+}
+.container-wrap .main-area .main-pic {
+  width: 4.13rem;
+  height: 3.44rem;
+  background-image: url('/static/images/Group42.png');
+  background-size: 4.13rem 3.44rem;
+}
+.container-wrap .main-area .main-pic img {
+  width: 4.13rem;
+  height: 3.44rem;
+}
+.container-wrap .main-area .checkbox {
+  width: 3rem;
+  padding-left: 0.8rem;
+}
+.container-wrap .main-area .checkbox .account {
+  display: inline-block;
+  font-size: 0.14rem;
+  line-height: 0.14rem;
+  margin-top: 0.17rem;
+  font-weight: 700;
+  color: #393d2b;
+  margin: 0.2rem 0 0.08rem 0;
+}
+.container-wrap .main-area .checkbox .account-input {
+  width: 2.52rem;
+  height: 0.08rem;
+  border: 0.01rem solid #9d9ea3;
+  border-radius: 0.04rem;
+  padding: 0.14rem 0.30rem 0.14rem 0.14rem;
+}
+.container-wrap .main-area .checkbox .recharge-text {
+  display: block;
+  font-size: 0.12rem;
+  margin-top: 0.08rem;
+}
+.container-wrap .main-area .checkbox .recharge-btn {
+  width: 3rem;
+  height: 0.4rem;
+  font-weight: Medium;
+  margin-top: 0.2rem;
+  text-align: center;
+  border-radius: 0.04rem;
+  background-color: #df2c4b;
+  color: #fff;
+  opacity: 0.2;
+}
+.container-wrap .main-area .checkbox .recharge-btn-true {
+  background-color: #df2c4b;
+  opacity: 1;
+}
+/* 验证失败的样式 */
+.right {
+  color: #df2c4b !important;
+}
+/* 输入框选中样式 */
+.input-checked {
+  border: 0.01rem solid #df2c4b !important;
+  border-radius: 0.08rem;
+  background-color: #fef9f9;
+  color: #df2c4b;
+}
+/*  输入框内容样式修改、 */
+input::-webkit-input-placeholder {
+  color: #9d9ea3;
+}
+input::-moz-input-placeholder {
+  color: #9d9ea3;
+}
+input::-ms-input-placeholder {
+  color: #9d9ea3;
+}
+/* 清空按钮 */
+.QtclearBtn {
+  position: absolute;
+  right: 3.3rem;
+  top: 3.25rem;
+  width: .14rem;
+  height: .14rem;
+  border-radius: 50%;
+  background-image: url('/static/images/Group_clear.png');
+  background-size: .14rem .14rem;
+}
+.BtclearBtn {
+   position: absolute;
+   right: 3.3rem;
+   top: 4.06rem;
+   width: .14rem;
+   height: .14rem;
+   border-radius: 50%;
+   background-image: url('/static/images/Group_clear.png');
+   background-size: .14rem .14rem;
+}
+.ReclearBtn {
+ position: absolute;
+ right: 3.3rem;
+ top: 5.25rem;
+ width: .14rem;
+  height: .14rem;
+ border-radius: 50%;
+ background-image: url('/static/images/Group_clear.png');
+ background-size: .14rem .14rem;
+}
+/* success成功页的样式 */
+.container-success-wrap {
+  margin: 0 auto;
+  width: 10.9rem;
+}
+.container-success-wrap .top-title {
+  height: 1.97rem;
+  color: #de2c4b;
+  border-bottom: 0.01rem solid #e4e4e4;
+}
+.container-success-wrap .top-title .top-title-head {
+  display: block;
+  font-weight: 400;
+  font-size: 0.28rem;
+  line-height: 0.5rem;
+  padding-top: 1.02rem;
+  text-align: center;
+}
+.container-success-wrap .top-title .top-title-bottom {
+  display: block;
+  margin: 0 auto;
+  font-size: 0.18rem;
+  text-align: center;
+}
+.container-success-wrap .success-pic {
+  display: block;
+  width: 1.6rem;
+  height: 0.96rem;
+  margin: 0 auto;
+  margin-top: 0.6rem;
+  margin-bottom: 0.3rem;
+}
+.container-success-wrap .success-pic img {
+  width: 1.6rem;
+  height: .96rem;
+}
+.container-success-wrap .recharge-success {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 0.4rem;
+}
+.container-success-wrap .count {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+.container-success-wrap .count span {
+  display: block;
+  line-height: 0.2rem;
+  font-size: 0.14rem;
+}
+.container-success-wrap .line {
+  margin: 0 auto;
+  height: 0.01rem;
+  width: 0.6rem;
+  background-color: #d5b583;
+}
+.container-success-wrap h3 {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 0.14rem;
+  padding: 0.2rem 0 4.4rem 0;
+}
